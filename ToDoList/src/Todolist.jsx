@@ -11,7 +11,6 @@ function Todolist() {
       setNewTask("");
     }
   };
-
   const handleDeleteTask = (indexToDelete) => {
     setTasks(tasks.filter((_, index) => index !== indexToDelete));
   };
